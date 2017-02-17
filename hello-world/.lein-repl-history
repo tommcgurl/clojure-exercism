@@ -1,0 +1,20 @@
+x = 5
+let x 5
+let x = 5
+x
+let x = 5
+(is = x 5)
+is(= x 5)
+(= x 5)
+def x 5
+x
+(def x)
+x
+(def x 5)
+x
+is(= x 5)
+(= x 5)
+"this"
+"this is a "x""
+str "this is a " 5
+str "this is a " x
