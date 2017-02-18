@@ -1,0 +1,69 @@
+(upcase "tom")
+(uppercase "tom"_
+)
+(uppercase "tom")
+(upper-case "tom")
+(upper-case 'tom')
+"test"
+upper-case "test"
+(str/upper-case 'tom')
+str
+(clojure.string/upper-case 'tom')
+(lst 'tom')
+(last 'tom')
+(clojure.string/last 'tom')
+(last '(1 2 3)
+)
+(last "tom")
+(= "?" "?")
+"tom?"
+(= (last "tom?") "?")
+last "tom?"
+(last "tom?")
+\?
+(= (last "tom?") \?)
+(= (last "tom?") "?")
+bob/response-for
+user/bob
+user/bob/response-for
+bob
+bob.clj
+def statement = "tom?"
+(= (last statement) \?)
+(= (last user/statement) \?)
+def statement = "tom?"
+statement
+def statement = 'tom?'
+statement
+(def statement = "tom")s
+(def statement = "tom")
+(def statement "tom")
+statement
+(= (last statement) \?)
+(def statement "tom?")
+(= (last statement) \?)
+(= (last statement) \?) && (= (last statement) \?)
+(= (last statement) \?) and (= (last statement) \?)
+(&& (= (last statement) \?)  (= (last statement) \?)(
+(&& (= (last statement) \?)  (= (last statement) \?)()
+s)
+)
+(&& (= (last statement) \?)  (= (last statement) \?))
+(and (= (last statement) \?)  (= (last statement) \?))
+(= (last statement) \?)
+(!= (last statement) \?)
+(not (last statement) \?)
+(! (last statement) \?)
+(/= (last statement) \?)
+(= (last statement) \?)
+(\= (last statement) \?)
+(= (last statement) \?)
+(not= (last statement) \?)
+(clojure.string/uppercase "tom")
+(clojure.str/uppercase "tom")
+(clojure.str/upper-case "tom")
+(clojure.string/upper-case "tom")
+(clojure.string/trim "tom tom")
+(clojure.string/trim "tom tom ")
+(clojure.string/trim "tom tom   ")
+(clojure.string/trim "  ")
