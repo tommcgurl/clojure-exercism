@@ -1,0 +1,114 @@
+(def a { :a 1 :b 2})
+a
+a[:a[
+s]
+a[:a]
+-
+(get :a a)
+)
+(get :a a)
+a:a
+a
+(get a :a)
+(get a "a")
+(get "test" 4)
+(def a { "this" 1 "that" 2})
+a
+(get a "this")
+lein test
+(require rna_transcription.clj)
+(require 'rna_transcription.clj)
+(require 'rna_transcription)
+to-rna
+rna_tanscription/to-rna
+to-rna
+to-rna "A"
+(require 'rna_transcription)
+(to-rna "A")
+(to-rna)
+(def conversion-map {
+      "G" "C"
+      "C" "G"
+      "T" "A"
+      "A" "U"
+    })
+(get conversion-map "T")
+(clojure.strin/split "AGGTA" #"")
+(clojure.string/split "AGGTA" #"")
+(def conversion-map {
+      "G" "C"
+      "C" "G"
+      "T" "A"
+      "A" "U"
+      "})
+)
+}
+(def conversion-map {
+      "G" "C"
+      "C" "G"
+      "T" "A"
+      "A" "U"
+    })
+conversion-map "T"
+(get conversion-map "T")
+(get conversion-map "A")
+(get conversion-map "C")
+(defn to-rna [dna-string] ;; <- arglist goes here
+  (def conversion-map {
+      "G" "C"
+      "C" "G"
+      "T" "A"
+      "A" "U"
+    })
+  (def dna-seq (clojure.string/split dna-string #""))
+  (reduce
+    (fn [prev next]
+      (str prev (get conversion-map next)))
+    dna-seq)
+  ;; your code goes here
+)
+to-rna
+to-rna "C"
+to-rna "A"
+(def dna-seq (clojure.string/split "A" #""))
+dna-seq
+  (def conversion-map {
+      "G" "C"
+      "C" "G"
+      "T" "A"
+      "A" "U"
+    })
+(fn [prev next]
+      (str prev (get conversion-map next))), ["A"])
+ang.LispReader$ReaderException: java.lang.RuntimeException: Unmatched delimiter: )
+  (reduce
+    (fn [prev next]
+      (str prev (get conversion-map next)))
+    dna-seq)
+(reduce
+    (fn [next acc]
+      (str prev (get conversion-map next)))
+    dna-seq)
+    (fn [next acc]
+      (str acc (get conversion-map next)))
+    dna-seq)
+(reduce
+    (fn [next acc]
+      (str acc (get conversion-map next)))
+    dna-seq)
+  (reduce
+    (fn [next acc]
+      (str acc (get conversion-map next)))
+    "", dna-seq)
+(reduce
+    (fn [acc next]
+      (str acc (get conversion-map next)))
+    "", dna-seq)
+  (reduce
+    (fn [acc next]
+      (str acc (try
+                  (get conversion-map next)
+                  (throw AssertionError (rna-transcription/to-rna "XCGFGGTDTTAA"))
+                  ))
+    "", dna-seq)
+)
